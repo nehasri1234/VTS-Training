@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .hero-content h1 {
+      font-size: 2rem;
+    }
+  
+    .service-grid, .team-grid, .blog-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact .container {
+      flex-direction: column;
+    }
+  
+    .contact-form,
+    .map-container {
+      max-width: 100%;
+    }
+  }
